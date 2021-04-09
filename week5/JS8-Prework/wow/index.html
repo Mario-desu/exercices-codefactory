@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        #container {
+            margin-top: 200px;
+            display: flex;
+            justify-content: center;
+            height: 300px;
+            color: white;
+        }              
+        .common{
+            border-radius: 50%;
+            margin: 20px;
+            width: 200px;
+            height: 200px;
+        }
+        #container div:nth-child(1){
+            background-color: coral;        
+        }
+        #container div:nth-child(2){
+            background-color: rgb(58, 211, 172);          
+        }
+        #container div:nth-child(3){
+            background-color: rgb(184, 53, 177);        
+        }
+        p{
+            text-align: center;
+            font-size: 50px;
+        }
+        h1{
+            text-align: center;
+            color:#EE366A;
+            font-size: 80px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>WOW.js</h1>
+    <div id="container" >
+        <div class="common animate__animated animate__rollIn"> <p>Roll In</p></div>
+        <div class="common animate__animated animate__bounceInDown"><p>Bounce</p></div>
+        <div class="common animate__animated animate__lightSpeedInRight"><p>Light Speed</p></div>
+        <p></p>
+    </div>
+    
+</body>
+</html>

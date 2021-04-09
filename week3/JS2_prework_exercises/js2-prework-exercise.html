@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function footToMeter(foot) {
+       var result = foot / 3.281;
+       console.log(result);
+       return result;
+   }
+   var foot = footToMeter(5);
+   document.write(foot + " meters" + "<br>");
+
+
+   
+function calcAge(currentYear, yearOfBirth) {
+  return currentYear - yearOfBirth;
+  }
+   var myAge = calcAge(2021, 1983);
+
+// function CalcAge is called
+   console.log(myAge);
+   document.write(myAge);
+   document.write("<br>");
+
+// returned value will be stored in var myAge
+// output: 36
+
+
+function getResult( numberOne, numberTwo, numberThree) {
+    var sum = numberOne + numberTwo + numberThree;
+    var multiply = numberOne * numberTwo * numberThree;
+
+    var result = [sum, multiply];
+    return result;
+    }
+
+    document.write(getResult(2, 7 , 5)[0]);
+    document.write( "<br/>");
+    document.write(getResult (2, 7, 5)[1]);
+
+
+
+const product = (name, price)=>
+    {
+       return  "The product: " + name + " costs €" + price;
+    }
+console.log(product("Bread", 1.99));
+
+//The product: Bread costs €1.99
+
+
+    </script>
+</body>
+</html>

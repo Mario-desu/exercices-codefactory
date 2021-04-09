@@ -1,0 +1,32 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+nav.ul {
+  margin: 0;
+  list-style: none;
+  padding-bottom: 2em;
+}
+
+a {
+  color: green;
+}
+
+p {
+  padding: 2vw;
+}
+
+nav button {
+  color: green;
+}
+
+div button {
+  background-color: green;
+}
+/*# sourceMappingURL=styles.css.map */

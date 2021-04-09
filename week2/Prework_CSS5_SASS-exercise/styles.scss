@@ -1,0 +1,31 @@
+$primary_button: green;
+
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+    
+nav.ul {
+    margin:0;
+    list-style: none;
+    padding-bottom: 2em;
+}
+    
+a {
+    color: $primary_button;
+}   
+
+p {
+    padding: 2vw;
+}    
+
+nav button {
+    color: $primary_button;
+}
+
+div button {
+    background-color: $primary_button;
+}
+
